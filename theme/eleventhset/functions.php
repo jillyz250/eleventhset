@@ -10,11 +10,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 define( 'ELEVENTHSET_VERSION', '1.0.0' );
+define( 'ELEVENTHSET_DIR', get_template_directory() );
+define( 'ELEVENTHSET_URI', get_template_directory_uri() );
 
 // Load includes
 require_once ELEVENTHSET_DIR . '/inc/setup-wizard.php';
-define( 'ELEVENTHSET_DIR', get_template_directory() );
-define( 'ELEVENTHSET_URI', get_template_directory_uri() );
 
 /* =============================================================================
    THEME SETUP
